@@ -71,4 +71,76 @@ nav{
     font-size: 22px;
     font-weight: 400;
 }
+/* PLANT STYLES*/
+.plants{
+    margin-top: 120px;
+}
+.plants-content{
+    text-align: center;
+   
+}
+.plants-content h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.plants-content h1 span{
+   color: #E95A08;  
+}
+.plants-content p{
+      color:#8987A1 ;
+    font-size: 22px;
+    font-weight: 400;
+}
+.plant-btn{
+    background-color: #E95A08;
+    color: white;
+   width: 100%;
+    border: none;
+    padding: 19px;
+}
+.plants-card-container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    gap: 20px;
+    text-align: center;
+}
+.flower-card h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.flower-card h3{
+    font-size: 22px;
+    font-weight: 700;
+}
 
+
+/* lover part styles */
+.lover{
+    display: flex;
+    margin-top: 210px;
+    gap: 60px;
+    justify-content: space-between;
+}
+.lover-content{
+    margin-top: 38px;
+}
+.lover-content h1{
+       font-size: 50px;
+    font-weight: bold;
+}
+.lover-content ul li{
+    font-size: 22px;
+    font-weight: 400;
+      color:#8987A1 ;
+      margin-bottom: 20px;
+}
+.lover-items{
+    position: relative;
+}
+.fan-bagde{
+    position: absolute;
+    top: -20%;
+   left: 30%;
+    width: 286px;
+    height: 286px;
+}
