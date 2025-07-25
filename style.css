@@ -305,6 +305,8 @@ footer{
  }
  .plants-card-container{
     grid-template-columns:repeat(2,4fr) ;
+    gap: 20px;
+   
 }
 .plants-content{
     margin: 0 auto;
@@ -342,6 +344,10 @@ footer{
 .deals-img{
     flex-direction: column;
 }
+.flower-card{
+    width: 171px;
+}
+
  
 
 
